@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Odibee Sans', cursive;
+}
+
+body{
+    display:block;    
+    background-color: rgb(201, 196, 243);
+}
+
+body nav h1{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3rem;
+    font-size: 50px;
+}
+
+nav{
+    background-color: rgb(17, 18, 99);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+nav ul{
+    font-size: 30px;
+    color: azure;
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+
+#principal01{
+    display: flex;
+    justify-content: center;
+}
+
+#jogos{
+    display:flex;
+    justify-items:auto;
+    background-color: rgb(250, 211, 160);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+
+}
+
+#seriados{
+    display:flex;
+    justify-items:auto;
+    background-color: rgb(250, 211, 160);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+
+}
+
+#livros{
+    display:flex;
+    justify-items:auto;
+    background-color: rgb(250, 211, 160);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+
+#principal02{
+    display: flex;
+    justify-content: space-around;
+}
+
+#link {
+    padding: 2rem;
+    display: block;
+    justify-content:space-around;
+}
+
+#video img{
+    width:45%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+#video{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
