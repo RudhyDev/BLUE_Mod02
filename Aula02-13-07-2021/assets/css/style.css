@@ -39,8 +39,8 @@ nav ul{
 }
 
 #jogos{
-    display:flex;
-    justify-items:auto;
+    /* display:flex;
+    justify-items:auto; */
     background-color: rgb(250, 211, 160);
     padding: 1rem;
     margin: 1rem;
@@ -49,8 +49,8 @@ nav ul{
 }
 
 #seriados{
-    display:flex;
-    justify-items:auto;
+    /* display:flex;
+    justify-items:auto; */
     background-color: rgb(250, 211, 160);
     padding: 1rem;
     margin: 1rem;
@@ -59,8 +59,8 @@ nav ul{
 }
 
 #livros{
-    display:flex;
-    justify-items:auto;
+    /* display:flex;
+    justify-items:auto; */
     background-color: rgb(250, 211, 160);
     padding: 1rem;
     margin: 1rem;
@@ -92,3 +92,5 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+
+/* --------------------FINALIZAR------------------------- */
