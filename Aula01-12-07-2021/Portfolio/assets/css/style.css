@@ -6,10 +6,16 @@
     font-family: 'Odibee Sans', cursive;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
     font-size: 30px;
-    padding: 1rem;
-    background-color: #3359ec;    
+    padding: .5rem;
+    background-color: #3359ec;
+    position: fixed;
+    width: 100%;    
 }
 
 nav ul{
@@ -60,12 +66,12 @@ section#sobre-mim{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    padding: 2rem;
     background-color: #3359ec;
 }
 
 section#sobre-mim div img{
-    width: 60%;
+    width: 80%;
     border-radius: 50%;
     transform: scaleX(-1)
 }
@@ -127,7 +133,7 @@ section#projetos div button:hover{
 
 section#habilidades{
     padding: 3rem 10rem 3rem 10rem;
-    background-color: #659ff7;
+    background-color: #a3c3f5;
 }
 
 section#habilidades h2{
@@ -154,7 +160,7 @@ section#habilidades div span#python{
     text-align: end;
     padding: .3rem;
     border-radius: 1rem;
-    width: 80%;
+    width: 70%;
 }
 
 section#habilidades div span#html{
@@ -163,7 +169,7 @@ section#habilidades div span#html{
     text-align: end;
     padding: .3rem;
     border-radius: 1rem;
-    width: 50%;
+    width: 65%;
 }
 
 section#habilidades div span#css{
@@ -172,5 +178,5 @@ section#habilidades div span#css{
     text-align: end;
     padding: .3rem;
     border-radius: 1rem;
-    width: 60%;
+    width: 40%;
 }
