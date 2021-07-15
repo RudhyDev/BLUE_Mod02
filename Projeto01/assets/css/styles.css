@@ -1,13 +1,87 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif; /*Depois escolher uma fonte que melhor se encaixa neste projeto */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: rgb(129, 183, 236);
+}
+html{
+    scroll-behavior: smooth;
 }
 
 header h1{
+    color: rgb(255, 255, 255);
     margin: 1rem;
+    padding: 1rem;
     font-size: 40px;
     display: flex;
     justify-content: center;
+    background-color: rgb(36, 40, 48);
+    border-radius: 12px;
+}
+
+body nav h2{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;    
+}
+
+nav#explicação{
+    margin: 0.1vw;
+    padding: 0.1vw 8vw;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav#explicação p{
+    text-align: justify;
+    font-size: 12px;
+}
+
+nav#explicação div#imagemlateral01{
+    margin: 1vw;    
+}
+
+nav#explicação div#imagemlateral02{
+    margin: 5vw 1vw;
+}
+
+nav#locImagem{
+    display: flex;
+    justify-content: center;
+}
+
+nav#locImagem img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+nav#botão{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button#humor{
+    border: 1px solid #0066ff;
+    background-color: #fff;
+    color: #3359ec;
+    border-radius: .5rem;
+    padding: .7rem;
+    font-size: .8vw;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .5s ease-out;
+}
+button#humor:hover{
+    background-color: #0066ff;
+    color: #fff;
+    transform: scale(1.4);
 }
