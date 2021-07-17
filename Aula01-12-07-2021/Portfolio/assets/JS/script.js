@@ -29,5 +29,5 @@ textArea?.addEventListener('keyup', ()=>{
 })
 
 btnEnviar.addEventListener('click', ()=>{
-    
+    // copiar aquela função aqui do botão
 })
