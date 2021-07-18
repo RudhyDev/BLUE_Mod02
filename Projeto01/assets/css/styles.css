@@ -101,7 +101,6 @@ button#humor{
     padding: .7rem;
     font-size: .8vw;
     font-weight: bold;
-    display: block;
     margin: auto;
     margin-top: 2rem;
     cursor: pointer;
