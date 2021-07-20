@@ -21,7 +21,7 @@ inputEmail?.addEventListener('keyup', ()=>{
 })
 
 textArea?.addEventListener('keyup', ()=>{
-    if(textArea.value.length > 100){
+    if(textArea.value.length > 500){
         textArea.style.borderColor ='red'
     } else {
         textArea.style.borderColor ='green'
@@ -31,3 +31,4 @@ textArea?.addEventListener('keyup', ()=>{
 btnEnviar.addEventListener('click', ()=>{
     // copiar aquela função aqui do botão
 })
+
