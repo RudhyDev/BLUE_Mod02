@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Odibee Sans', cursive;
+    /* background-color: #0986c0f6 */
 }
 
 html{
@@ -13,9 +14,12 @@ html{
 nav{
     font-size: 30px;
     padding: .5rem;
-    background-color: #3359ec;
+    background-color: #0986c0f6;
     position: fixed;
-    width: 100%;    
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 1vw;
+    margin-right: 2vw;    
 }
 
 nav ul{
@@ -31,13 +35,15 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+    text-shadow: 0 0 10px #fff, 1px 1px 2px rgb(0, 89, 255);
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 5rem;
+    background-color: #063449f6;
 
 }
 
@@ -181,6 +187,15 @@ section#habilidades div span#css{
     width: 40%;
 }
 
+section#habilidades div span#JavaScript{
+    background-color: #0066ff;
+    color: #fff;
+    text-align: end;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 30%;
+}
+
 /* Seção de contato */
 
 section#contato {
@@ -278,4 +293,11 @@ section#contato div#form form button:hover{
     background-color: #3359ec;
     color: #fff;
     transform: scale(1.2);
+}
+
+div#copyright{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
