@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Odibee Sans', cursive;
-    /* background-color: #0986c0f6 */
+    
 }
 
 html{
@@ -14,7 +14,7 @@ html{
 nav{
     font-size: 30px;
     padding: .5rem;
-    background-color: #0986c0f6;
+    background-color: #063449f6;
     position: fixed;
     width: 100%;
     border-radius: 30px;
@@ -43,7 +43,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 5rem;
-    background-color: #063449f6;
+    background-color: #b8bbbdf6;
 
 }
 
