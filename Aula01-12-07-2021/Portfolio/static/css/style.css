@@ -83,10 +83,11 @@ section#sobre-mim div img{
 }
 
 section#sobre-mim div p {
-    font-size: 1.1vw;
+    font-size: 1.6vw;
     text-align: justify;
     color: #fff;
     line-height: 2.5rem;
+    font-weight: lighter;
 
 }
 
@@ -194,6 +195,15 @@ section#habilidades div span#JavaScript{
     padding: .3rem;
     border-radius: 1rem;
     width: 30%;
+}
+
+section#habilidades div span#flask{
+    background-color: #0066ff;
+    color: #fff;
+    text-align: end;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 20%;
 }
 
 /* Seção de contato */
