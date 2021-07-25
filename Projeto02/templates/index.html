@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!-- link para acessar os icones do front-end -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio">
+        <div >
+            <p>"Conhecimento não é aquilo que você sabe, mas o que você faz com aquilo que você sabe." </p>
+            <span>Aldous Huxley</span>         
+        </div>
+
+        <div id="img-rocket">
+            <img src="../static/img/Rocket-cuate.svg" charset="utf-8" alt="Foguete não tem ré!">
+        </div>
+    </header>
+
+    <section id="sobre-mim">
+        <div>
+            <img src="../static/img/PerfilSemBG.png"  alt="Minha imagem de perfil">
+        </div>
+
+        <div>
+            <p>
+                Sou engenheiro civil, formado pela Universidade Positivo e estou transicionando de carreira para o mundo da Tecnologia. A automatização de tarefas repetitivas e o infinito mundo de possibilidades que a programação proporciona para o desenvolvedor me fascina desde o começo da graduação. Quando descobri o Python e o JavaScript, bem como todas as suas derivações, comecei a trilhar caminhos para a minha especialização, que ainda não está bem definida, porém estou cada dia mais me direcionando rumo ao FulL Stack.
+                Tenho muita curiosidade, vontade de aprender e executar os diversos desafios desse mundo da programação.            
+                
+            </p>
+
+        </div>
+    </section>
+
+    <section id="projetos">
+
+        <div>
+            <img src="../static/img/Projeto01.png" width=100 alt="">
+            <h2>Projeto 01 - Detetive</h2>
+            <p>Este projeto teve por finalidade fixar os conhecimentos de Variáveis, Print, Input e Condicionais. Consistiu em criar um programa que faz 5 perguntas para o usuário acerca de um crime e no final ele informa uma classificação da participação da pessoa neste crime de acordo com as respostas dada pelo usuário.</p>
+            <button>Veja Mais</button>
+        </div>
+        <div>
+            <img src="../static/img/Projeto02.png" width=100 alt="">
+            <h2>Projeto 02 - Jokenpo</h2>
+            <p>Neste projeto o objetivo era criar o jogo Jokenpo ("Pedra, Papel ou Tesoura") usando todos os conceitos aprendidos anteriormente e as estruturas de repetição (for, while).</p>
+            <button>Veja Mais</button>
+        </div>
+        <div>
+            <img src="../static/img/Projeto03.png" width=100 alt="">
+            <h2>Projeto 03 - Simulador de Votação</h2>
+            <p>Projeto que simula um sistema de votação em candidatos predefinidos pelo usuário e ao final da votação é exibido quantos votos cada candidato recebeu, quantos votos nulos, brancos e quem foi o candidato vencedor.</p>
+            <button>Veja Mais</button>
+        </div>
+        <div>
+            <img src="../static/img/ProjetoFinal.png" width=100 alt="">
+            <h2>Projeto Final</h2>
+            <p>Neste projeto final foi realizado um jogo interativo utilizando todos os conceitos de logica de programação em python aprendido ao longo do módulo 01. Incluindo, funções, métodos, POO, herança, encapsulamento e polimorfismo.</p>
+            <button>Veja Mais</button>
+        </div>
+
+    </section>
+    
+
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+
+        <p>Python 3</p>
+        <div>
+            <span id="python">70%</span>
+        </div>
+
+        <p>HTML 5</p>
+        <div>
+            <span id="html">65%</span>
+        </div>
+
+        <p>CSS 3</p>
+        <div>
+            <span id="css">40%</span>
+        </div>
+
+        <p>JavaScript</p>
+        <div>
+            <span id="JavaScript">30%</span>
+        </div>
+
+        <p>Flask</p>
+        <div>
+            <span id="flask">20%</span>
+        </div>
+
+
+    </section>
+
+    <!-- Contato -->
+
+    <section id="contato">
+
+        <div id="redes">
+        <h3>Se conecte comigo</h3>
+
+        <div id="icons">
+            <a href="https://www.linkedin.com/in/rudhycosta/" target="_blank"> 
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
+            </a>
+    
+            <a href="https://github.com/RudhyDev" target="_blank"> 
+                <i class="fa fa-github" aria-hidden="true"></i> 
+            </a>
+    
+            <a href="https://www.instagram.com/rudhydev/" target="_blank"> 
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+        
+        </div>
+
+        <div id="form">
+
+        <h3>Mande uma mensagem</h3>
+
+        <form action="/send" method="POST">
+
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite seu nome" id="nome" name="nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu email" id="email" name="email">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="10" rows="5"></textarea>
+
+            <button type="submit" id="enviar">Enviar</button>
+
+        </form>
+
+        <div id="carregamento">
+            <p>Enviando mensagem</p>
+            <div id="loader"></div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- Fim do Contato -->
+
+    <footer>
+        <hr>
+        <p>Todos os direitos reservados: <a id="RudhyDev" target="_blank" href="https://github.com/RudhyDev">RudhyDev</a> &copy;</p>
+    </footer>
+
+    <script src='../static/JS/script.js'></script>
+</body>
+</html>
