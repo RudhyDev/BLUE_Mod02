@@ -49,7 +49,7 @@ PyAutoGUI==0.9.52
 pygame==2.0.1
 PyGetWindow==0.0.9
 Pygments==2.8.1
-pyinstaller==4.3
+pyinstaller==6.0.0
 pyinstaller-hooks-contrib==2021.2
 pylint==2.9.5
 PyMsgBox==1.0.9
